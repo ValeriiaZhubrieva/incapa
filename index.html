@@ -8,8 +8,8 @@
 	<!-- <style>body{opacity: 0;}</style> -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap&_v=20230317090631" rel="stylesheet">
-	<link rel="stylesheet" href="css/style.min.css?_v=20230317090631">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap&_v=20230317113632" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230317113632">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,118 +24,181 @@
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item"><a href="" class="menu__link">О нас</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Взаимодействия</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Принципы работы</a></li>
-							<li class="menu__item"><a href="" class="menu__link">Команда</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".about" href="" class="menu__link">О нас</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".services" href="" class="menu__link">Услуги</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".solutions" href="" class="menu__link">Решения</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".types" href="" class="menu__link">Взаимодействия</a></li>
+							<li class="menu__item"><a data-goto-header data-goto=".work" href="" class="menu__link">Принципы работы</a></li>
 						</ul>
-						<a href="" class="header__btn">Написать нам</a>
+						<a data-goto-header data-goto=".contacts" href="" class="header__btn">Написать нам</a>
 					</nav>
 				</div>
 			</div>
 		</header>
 		<main class="page">
-			<section class="page__promo promo" style="background-image:url('img/consulting.jpg');">
+			<section class="page__promo promo" style="background-image: url('img/consulting.jpg')">
 				<div class="promo__container">
-					<h1 class="promo__title">Консалтинг в области данных
-					</h1>
+					<h1 class="promo__title">Консалтинг в области данных</h1>
 					<div class="promo__text">
-						<p>Мы предоставляем большой спектр услуг в аналитике, машинном обучении в обеспечении инфраструктуры для данных.</p>
+						<p>
+							Мы предоставляем большой спектр услуг в аналитике, машинном
+							обучении в обеспечении инфраструктуры для данных.
+						</p>
 					</div>
-					<a href="" class="promo__btn">Узнать больше</a>
+					<a data-goto-header data-goto=".about" href="" class="promo__btn">Узнать больше</a>
 				</div>
 			</section>
 			<section class="page__about about">
 				<div class="about__container">
 					<div class="about__inner">
 						<div class="about__head block-title">
-							<h2 class="block-title__title title">Мы предоставляем широкий спект услуг
+							<h2 class="block-title__title title">
+								Мы предоставляем широкий спект услуг
 							</h2>
 							<div class="block-title__text">
-								<p>Большая экспертиза в построении аналитических систем и команд, а также развитии бизнеса на основе данных позволяет нам решать большой спектр задач для наших клиентов</p>
+								<p>
+									Большая экспертиза в построении аналитических систем и
+									команд, а также развитии бизнеса на основе данных позволяет
+									нам решать большой спектр задач для наших клиентов
+								</p>
 							</div>
 						</div>
 						<div class="about__items">
 							<div class="about__item item-about">
-								<img src="img/exp.svg" alt="" class="item-about__img">
+								<img src="img/exp.svg" alt="" class="item-about__img" />
 								<div class="item-about__body">
-									<h3 class="item-about__title">Большой опыт в аналитике
+									<h3 class="item-about__title">Большой опыт в аналитике</h3>
+									<div class="item-about__text">
+										<p>
+											Наши специалисты работали над различными проектами для
+											крупных розничных сетей, фармацевтических компаний и
+											айти-КОМПАНИЙ России и стран Азии, имеют опыт построения
+											аналитических систем для промышленных предприятий и
+											логистических комплексов. Мы обладаем экспертизой как в
+											построении аналитических функций с нуля, так и в
+											развитии существующих команд клиентов.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="about__item item-about">
+								<img src="img/req.svg" alt="" class="item-about__img" />
+								<div class="item-about__body">
+									<h3 class="item-about__title">
+										Понимаем потребности клиента
 									</h3>
 									<div class="item-about__text">
-										<p>Наши специалисты работали над различными проектами для крупных розничных сетей, фармацевтических компаний и айти-КОМПАНИЙ России и стран Азии, имеют опыт построения аналитических систем для промышленных предприятий и логистических комплексов. Мы обладаем экспертизой как в построении аналитических функций с нуля, так и в развитии существующих команд клиентов.</p>
+										<p>
+											Наши специалисты обладают глубоким пониманием проблем
+											аналитики и бизнеса. Умение говорить на языке заказчика
+											и слышать конкретные потребности позволяет успешно
+											решать поставленные задачи и предлагать эффективные
+											решения.
+										</p>
 									</div>
 								</div>
 							</div>
 							<div class="about__item item-about">
-								<img src="img/req.svg" alt="" class="item-about__img">
-								<div class="item-about__body">
-									<h3 class="item-about__title">Понимаем потребности клиента</h3>
-									<div class="item-about__text">
-										<p>Наши специалисты обладают глубоким пониманием проблем аналитики и бизнеса. Умение говорить на языке заказчика и слышать конкретные потребности позволяет успешно решать поставленные задачи и предлагать эффективные решения.</p>
-									</div>
-								</div>
-							</div>
-							<div class="about__item item-about">
-								<img src="img/chart.svg" alt="" class="item-about__img">
+								<img src="img/chart.svg" alt="" class="item-about__img" />
 								<div class="item-about__body">
 									<h3 class="item-about__title">Аналитика</h3>
 									<div class="item-about__text">
-										<p>Мы помогаем делать продвинутую аналитику больших данных для оптимизации принятия бизнес-решений, повышения эффективности работы и поиска новых точек роста вашего продукта.</p>
+										<p>
+											Мы помогаем делать продвинутую аналитику больших данных
+											для оптимизации принятия бизнес-решений, повышения
+											эффективности работы и поиска новых точек роста вашего
+											продукта.
+										</p>
 									</div>
 								</div>
 							</div>
 							<div class="about__item item-about">
-								<img src="img/db.svg" alt="" class="item-about__img">
+								<img src="img/db.svg" alt="" class="item-about__img" />
 								<div class="item-about__body">
 									<h3 class="item-about__title">IT-инфраструктура</h3>
 									<div class="item-about__text">
-										<p>IT-инфраструктура является основой для построения аналитики в компании. Мы помогаем правильно построить хранилище данных, что позволяет ускорить работу всех аналитических процессов – дашбордов, исследований, расчётов ML моделей. Также это повышает отказоустойчивость информационных систем клиента.</p>
+										<p>
+											IT-инфраструктура является основой для построения
+											аналитики в компании. Мы помогаем правильно построить
+											хранилище данных, что позволяет ускорить работу всех
+											аналитических процессов – дашбордов, исследований,
+											расчётов ML моделей. Также это повышает
+											отказоустойчивость информационных систем клиента.
+										</p>
 									</div>
 								</div>
 							</div>
 							<div class="about__item item-about">
-								<img src="img/ml.svg" alt="" class="item-about__img">
+								<img src="img/ml.svg" alt="" class="item-about__img" />
 								<div class="item-about__body">
 									<h3 class="item-about__title">Maсhine learning</h3>
 									<div class="item-about__text">
-										<p>Использование машинного обучения имеет широкое применение: от предсказания продаж конкретной товарной категории до автоматизации сложных процессов, таких как управление маркетинговыми кампаниями, логистика, повышение отказоустойчивости оборудования, снижение количества брака, повышение эффективности бизнес-процессов.</p>
+										<p>
+											Использование машинного обучения имеет широкое
+											применение: от предсказания продаж конкретной товарной
+											категории до автоматизации сложных процессов, таких как
+											управление маркетинговыми кампаниями, логистика,
+											повышение отказоустойчивости оборудования, снижение
+											количества брака, повышение эффективности
+											бизнес-процессов.
+										</p>
 									</div>
 								</div>
 							</div>
 							<div class="about__item item-about">
-								<img src="img/dashboard.svg" alt="" class="item-about__img">
+								<img src="img/dashboard.svg" alt="" class="item-about__img" />
 								<div class="item-about__body">
 									<h3 class="item-about__title">Дашборды</h3>
 									<div class="item-about__text">
-										<p>BI - это ключ к повышению эффективности аналитической работы. Использование дашбордов позволяет масштабировать использование данных компании, увеличить осведомленность сотрудников о клиентах и бизнес процессах.</p>
+										<p>
+											BI - это ключ к повышению эффективности аналитической
+											работы. Использование дашбордов позволяет масштабировать
+											использование данных компании, увеличить осведомленность
+											сотрудников о клиентах и бизнес процессах.
+										</p>
 									</div>
 								</div>
 							</div>
 							<div class="about__item item-about">
-								<img src="img/action-chains.svg" alt="" class="item-about__img">
+								<img src="img/action-chains.svg" alt="" class="item-about__img" />
 								<div class="item-about__body">
 									<h3 class="item-about__title">Сценарии действий</h3>
 									<div class="item-about__text">
-										<p>Мы можем написать сценарии действий для моделей “если произошло событие А, то сделай действие Б”. Мы обладаем большой экспертизой, видели результаты множества принятых решений, мы скажем, какой вариант лучший.</p>
+										<p>
+											Мы можем написать сценарии действий для моделей “если
+											произошло событие А, то сделай действие Б”. Мы обладаем
+											большой экспертизой, видели результаты множества
+											принятых решений, мы скажем, какой вариант лучший.
+										</p>
 									</div>
 								</div>
 							</div>
 							<div class="about__item item-about">
-								<img src="img/recruitment-management.svg" alt="" class="item-about__img">
+								<img src="img/recruitment-management.svg" alt="" class="item-about__img" />
 								<div class="item-about__body">
 									<h3 class="item-about__title">Помощь в найме</h3>
 									<div class="item-about__text">
-										<p>Вы хотите инхаус команду. Это хорошо. Мы поможем составить штатное расписание. Мы знаем, сколько где стоят нужные специалисты и где их искать. Мы поможем провести собеседование и нанять хороших людей, а не шарлатанов.</p>
+										<p>
+											Вы хотите инхаус команду. Это хорошо. Мы поможем
+											составить штатное расписание. Мы знаем, сколько где
+											стоят нужные специалисты и где их искать. Мы поможем
+											провести собеседование и нанять хороших людей, а не
+											шарлатанов.
+										</p>
 									</div>
 								</div>
 							</div>
 							<div class="about__item item-about">
-								<img src="img/analytics-report.svg" alt="" class="item-about__img">
+								<img src="img/analytics-report.svg" alt="" class="item-about__img" />
 								<div class="item-about__body">
-									<h3 class="item-about__title">Построение аналитической культуры</h3>
+									<h3 class="item-about__title">
+										Построение аналитической культуры
+									</h3>
 									<div class="item-about__text">
-										<p>Мы разработаем систему семинаров, проведем обучение топ-менеджеров data driven системе принятия решений.</p>
+										<p>
+											Мы разработаем систему семинаров, проведем обучение
+											топ-менеджеров data driven системе принятия решений.
+										</p>
 									</div>
 								</div>
 							</div>
@@ -143,7 +206,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="page__services services" style="background-image: url('img/service-back.jpeg');">
+			<section class="page__services services" style="background-image: url('img/service-back.jpeg')">
 				<div class="services__container">
 					<div class="services__inner">
 						<div class="solution__head block-title">
@@ -152,43 +215,43 @@
 						<div class="services__body">
 							<div class="services__item item-services">
 								<div class="item-services__body">
-									<img src="img/data-w.svg" alt="" class="item-services__img">
-									<h4 class="item-services__title">
-										Аналитический аудит
-									</h4>
+									<img src="img/data-w.svg" alt="" class="item-services__img" />
+									<h4 class="item-services__title">Аналитический аудит</h4>
 								</div>
 								<p class="item-services__text">
-									Аудит аналитических систем и команд, построение стратегии выстраивания аналитической команды и data driven культуры
+									Аудит аналитических систем и команд, построение стратегии
+									выстраивания аналитической команды и data driven культуры
 								</p>
 							</div>
 							<div class="services__item item-services">
 								<div class="item-services__body">
-									<img src="img/data-w.svg" alt="" class="item-services__img">
+									<img src="img/data-w.svg" alt="" class="item-services__img" />
 									<h4 class="item-services__title">
 										Потоки, сбор и хранение данных
 									</h4>
 								</div>
 								<p class="item-services__text">
-									Построение и автоматизация дата-пайплайнов и ETL-процессов, интеграция данных, выбор и внедрение правильного хранилища данных.
+									Построение и автоматизация дата-пайплайнов и ETL-процессов,
+									интеграция данных, выбор и внедрение правильного хранилища
+									данных.
 								</p>
 							</div>
 							<div class="services__item item-services">
 								<div class="item-services__body">
-									<img src="img/data-w.svg" alt="" class="item-services__img">
+									<img src="img/data-w.svg" alt="" class="item-services__img" />
 									<h4 class="item-services__title">
 										Создание системы дашбордов
 									</h4>
 								</div>
 								<p class="item-services__text">
-									Архитектура целостной системы, дизайн и разработка дашбордов, визуализация данных и инсайтов
+									Архитектура целостной системы, дизайн и разработка
+									дашбордов, визуализация данных и инсайтов
 								</p>
 							</div>
 							<div class="services__item item-services">
 								<div class="item-services__body">
-									<img src="img/data-w.svg" alt="" class="item-services__img">
-									<h4 class="item-services__title">
-										Внедрение ML
-									</h4>
+									<img src="img/data-w.svg" alt="" class="item-services__img" />
+									<h4 class="item-services__title">Внедрение ML</h4>
 								</div>
 								<p class="item-services__text">
 									Построение и масштабирование моделей машинного обучения
@@ -196,13 +259,12 @@
 							</div>
 							<div class="services__item item-services">
 								<div class="item-services__body">
-									<img src="img/data-w.svg" alt="" class="item-services__img">
-									<h4 class="item-services__title">
-										Оптимизация процессов
-									</h4>
+									<img src="img/data-w.svg" alt="" class="item-services__img" />
+									<h4 class="item-services__title">Оптимизация процессов</h4>
 								</div>
 								<p class="item-services__text">
-									Построение внутренних процессов. Оптимизация бизнес-процессов на основе данных аналитики.
+									Построение внутренних процессов. Оптимизация
+									бизнес-процессов на основе данных аналитики.
 								</p>
 							</div>
 						</div>
@@ -217,25 +279,21 @@
 						</div>
 						<div class="solutions__body">
 							<div class="solutions__item">
-								<h3 class="solutions__title">
-									Ритейл
-								</h3>
+								<h3 class="solutions__title">Ритейл</h3>
 								<ul class="solutions__list">
-									<li class="solutions__li">
-										Поиск причин успехов и неудач
-									</li>
+									<li class="solutions__li">Поиск причин успехов и неудач</li>
 									<li class="solutions__li">
 										Система динамического ценообразования
 									</li>
 									<li class="solutions__li">
-										Классификация товаров на классы по допустимой максимальной маржинальности
+										Классификация товаров на классы по допустимой максимальной
+										маржинальности
 									</li>
 									<li class="solutions__li">
-										Управление ценами через остаток (с учетом спроса и ожидания по поставкам)
+										Управление ценами через остаток (с учетом спроса и
+										ожидания по поставкам)
 									</li>
-									<li class="solutions__li">
-										Персонализированные скидки
-									</li>
+									<li class="solutions__li">Персонализированные скидки</li>
 									<li class="solutions__li">
 										Аналитика ассортимента и рекомендательные системы
 									</li>
@@ -246,21 +304,16 @@
 										Управление маркетинговыми коммуникациями
 									</li>
 									<li class="solutions__li">
-										Перепроверка компетенций руководителя аналитики/маркетинга/etc
+										Перепроверка компетенций руководителя
+										аналитики/маркетинга/etc
 									</li>
-									<li class="solutions__li">
-										Работа с компьютерным зрением
-									</li>
+									<li class="solutions__li">Работа с компьютерным зрением</li>
 								</ul>
 							</div>
 							<div class="solutions__item">
-								<h3 class="solutions__title">
-									Сельское хозяйство
-								</h3>
+								<h3 class="solutions__title">Сельское хозяйство</h3>
 								<ul class="solutions__list">
-									<li class="solutions__li">
-										Автоматизация комбайнов
-									</li>
+									<li class="solutions__li">Автоматизация комбайнов</li>
 									<li class="solutions__li">
 										Работа с компьютерным зрением в животноводстве
 									</li>
@@ -273,34 +326,27 @@
 								</ul>
 							</div>
 							<div class="solutions__item">
-								<h3 class="solutions__title">
-									Транспорт
-								</h3>
+								<h3 class="solutions__title">Транспорт</h3>
 								<ul class="solutions__list">
 									<li class="solutions__li">
 										Оптимизация построения маршрутов
 									</li>
-									<li class="solutions__li">
-										Продвитный антифрод
-									</li>
+									<li class="solutions__li">Продвитный антифрод</li>
 									<li class="solutions__li">
 										Предсказание выхода техники из строя
 									</li>
-									<li class="solutions__li">
-										Предсказание времени доставки
-									</li>
+									<li class="solutions__li">Предсказание времени доставки</li>
 									<li class="solutions__li">
 										Переработка интерфейсов существующих программных решений
 									</li>
 								</ul>
 							</div>
 							<div class="solutions__item">
-								<h3 class="solutions__title">
-									Складские системы
-								</h3>
+								<h3 class="solutions__title">Складские системы</h3>
 								<ul class="solutions__list">
 									<li class="solutions__li">
-										Категоризация товаров по оптимальной скорости доступа и карта их размещения
+										Категоризация товаров по оптимальной скорости доступа и
+										карта их размещения
 									</li>
 									<li class="solutions__li">
 										Оптимизация алгоритмов и маршрута сборки товаров
@@ -308,24 +354,17 @@
 									<li class="solutions__li">
 										Алгоритмы уплотнения ячеек и переразмещения товаров
 									</li>
+									<li class="solutions__li">Видеоконтроль за нарушениями</li>
+									<li class="solutions__li">Автоматизация верификации</li>
+									<li class="solutions__li">Автоматизация освещения</li>
 									<li class="solutions__li">
-										Видеоконтроль за нарушениями
-									</li>
-									<li class="solutions__li">
-										Автоматизация верификации
-									</li>
-									<li class="solutions__li">
-										Автоматизация освещения
-									</li>
-									<li class="solutions__li">
-										Предсказание размера оптимальной партии для штучных товаров
+										Предсказание размера оптимальной партии для штучных
+										товаров
 									</li>
 								</ul>
 							</div>
 							<div class="solutions__item">
-								<h3 class="solutions__title">
-									Производство
-								</h3>
+								<h3 class="solutions__title">Производство</h3>
 								<ul class="solutions__list">
 									<li class="solutions__li">
 										Автоматизация производственных процессов
@@ -333,31 +372,25 @@
 									<li class="solutions__li">
 										Предсказание износа и выхода из строя оборудования
 									</li>
-									<li class="solutions__li">
-										Работа с компьютерным зрением
-									</li>
+									<li class="solutions__li">Работа с компьютерным зрением</li>
 									<li class="solutions__li">
 										Автоматизация системы штрихкодирования и qr-кодов
 									</li>
 								</ul>
 							</div>
 							<div class="solutions__item">
-								<h3 class="solutions__title">
-									Энергетика
-								</h3>
+								<h3 class="solutions__title">Энергетика</h3>
 								<ul class="solutions__list">
 									<li class="solutions__li">
-										Моделирование системы оптимальных параметров работы оборудования в зависимости от погоды для оптимизации расходов
+										Моделирование системы оптимальных параметров работы
+										оборудования в зависимости от погоды для оптимизации
+										расходов
 									</li>
-									<li class="solutions__li">
-										Системы антифрода
-									</li>
+									<li class="solutions__li">Системы антифрода</li>
 									<li class="solutions__li">
 										Аналитика данных геологоразведки
 									</li>
-									<li class="solutions__li">
-										Оптимизация рецептур
-									</li>
+									<li class="solutions__li">Оптимизация рецептур</li>
 									<li class="solutions__li">
 										Оптимизация складских остатков
 									</li>
@@ -370,45 +403,194 @@
 			<section class="page__types types">
 				<div class="types__container">
 					<div class="types__head block-title">
-						<h2 class="block-title__title title">Различные типы взаимодействия</h2>
+						<h2 class="block-title__title title">
+							Различные типы взаимодействия
+						</h2>
 						<div class="block-title__text">
-							<p>Мы предлагаем несколько вариантов сотрудничества с клиентом в зависимости от поставленных задач. Это позволяет наладить гибкое взаимодействие и получить лучшие результаты за меньший бюджет.</p>
+							<p>
+								Мы предлагаем несколько вариантов сотрудничества с клиентом в
+								зависимости от поставленных задач. Это позволяет наладить
+								гибкое взаимодействие и получить лучшие результаты за меньший
+								бюджет.
+							</p>
 						</div>
 					</div>
 					<div class="types__items">
 						<div class="types__item">
-							<div class="types__img"><img src="img/brain.svg" alt="Icon"></div>
-							<h3 class="types__title">Консультант
-							</h3>
-							<div class="types__text">
-								<p>Ваши знания объединяются с нашими специализированными знаниями и опытом. Мы применяем наш накопленный опыт, чтобы вместе найти оптимальное решение задачи.</p>
+							<div class="types__img">
+								<img src="img/brain.svg" alt="Icon" />
 							</div>
-						</div>
-						<div class="types__item">
-							<div class="types__img"><img src="img/hands.svg" alt="Icon"></div>
-							<h3 class="types__title">Специалист</h3>
+							<h3 class="types__title">Консультант</h3>
 							<div class="types__text">
-								<p>Мы помогаем вам как дополнительная пара рук. Наши специалисты готовы находить решения поставленных вопросов и выполнять как плановые, так и срочно появившиеся задачи.
+								<p>
+									Ваши знания объединяются с нашими специализированными
+									знаниями и опытом. Мы применяем наш накопленный опыт, чтобы
+									вместе найти оптимальное решение задачи.
 								</p>
 							</div>
 						</div>
 						<div class="types__item">
-							<div class="types__img"><img src="img/team.svg" alt="Icon"></div>
-							<h3 class="types__title">Готовое решение</h3>
+							<div class="types__img">
+								<img src="img/hands.svg" alt="Icon" />
+							</div>
+							<h3 class="types__title">Специалист</h3>
 							<div class="types__text">
-								<p>Мы создаем аналитический продукт или функцию под ключ. Мы отвечаем за результат, реализуем план действий и технический контроль. От вас требуется описание потребности и приемка выполненных работ.</p>
+								<p>
+									Мы помогаем вам как дополнительная пара рук. Наши
+									специалисты готовы находить решения поставленных вопросов и
+									выполнять как плановые, так и срочно появившиеся задачи.
+								</p>
 							</div>
 						</div>
+						<div class="types__item">
+							<div class="types__img">
+								<img src="img/team.svg" alt="Icon" />
+							</div>
+							<h3 class="types__title">Готовое решение</h3>
+							<div class="types__text">
+								<p>
+									Мы создаем аналитический продукт или функцию под ключ. Мы
+									отвечаем за результат, реализуем план действий и технический
+									контроль. От вас требуется описание потребности и приемка
+									выполненных работ.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__work work">
+				<div class="work__container">
+					<div class="work__head block-title">
+						<h2 class="block-title__title title">Наши принципы работы</h2>
+						<div class="block-title__text">
+							<p>
+								Для нас первостепенной целью является достижение результата
+								клиентом по факту решения поставленной задачи. Мы работаем для
+								того, чтобы ваш бизнес стал успешнее. Поэтому мы строим наше
+								сотрудничество на основе следующих важных принципов:
+							</p>
+						</div>
+					</div>
+					<div class="work__inner">
+						<div class="work__items">
+							<div class="work__item item-work">
+								<div class="item-work__img">
+									<img src="img/speed.svg" alt="Icon" />
+								</div>
+								<div class="item-work__info">
+									<h3 class="item-work__title">Бизнес-ориентированность</h3>
+									<div class="item-work__text">
+										Мы строим аналитику, которая помогает бизнесу. Мы
+										используем науку о данных, статистику и новые технологии
+										для решения задач клиента и удовлетворения его
+										потребностей, а не ради того, чтобы "поиграть в модную
+										аналитическую культуру".
+									</div>
+								</div>
+							</div>
+							<div class="work__item item-work">
+								<div class="item-work__img">
+									<img src="img/security.svg" alt="Icon" />
+								</div>
+								<div class="item-work__info">
+									<h3 class="item-work__title">Безопасность</h3>
+									<div class="item-work__text">
+										Мы используем лучшие практики для обеспечения
+										информационной безопасности. Особое внимание уделяем
+										защите от утечек клиентских данных. Мы гарантируем полную
+										конфиденциальность представленной нам информации.
+									</div>
+								</div>
+							</div>
+							<div class="work__item item-work">
+								<div class="item-work__img">
+									<img src="img/agile.svg" alt="Icon" />
+								</div>
+								<div class="item-work__info">
+									<h3 class="item-work__title">Agile</h3>
+									<div class="item-work__text">
+										В процессе работы мы тесно взаимодействуем заказчиками,
+										используя гибкие методологии. Это позволяет учитывать
+										новые потребности и идеи клиента, корректировать тактику
+										решений, достигать лучших результатов.
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="work__img"><picture><source srcset="img/work.webp" type="image/webp"><img src="img/work.jpg" alt="Image"></picture></div>
+					</div>
+				</div>
+			</section>
+			<section class="page__partners partners">
+				<div class="partners__container">
+					<div class="partners__head block-title">
+						<h2 class="block-title__title title">Мы уже работали с</h2>
+					</div>
+					<div class="partners__items">
+						<div class="partners__item">
+							<picture><source srcset="img/yandex_logo.ong.webp" type="image/webp"><img src="img/yandex_logo.ong.png" alt="Image"></picture>
+						</div>
+						<div class="partners__item">
+							<img src="img/dc-logo.svg" alt="Image">
+						</div>
+						<div class="partners__item">
+							<img src="img/koshelek-logo.svg" alt="Image">
+						</div>
+						<div class="partners__item">
+							<img src="img/insales-logo.svg" alt="Image">
+						</div>
+						<div class="partners__item">
+							<img src="img/dodo-logo.svg" alt="Image">
+						</div>
+						<div class="partners__item">
+							<img src="img/oskelly-logo.svg" alt="Image">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__contacts contacts" style="background-image: url(img/contacts.jpg);">
+				<div class="contacts__container">
+					<div class="contacts__head block-title">
+						<h2 class="block-title__title title">Напишите нам</h2>
+						<div class="block-title__text">
+							<p>
+								Хотите поговорить с одним с наших представителей? Оставьте ваши контактные данные, и мы
+								свяжемся с вами в ближайшее время!
+							</p>
+						</div>
+					</div>
+					<div class="contacts__inner">
+						<form action="#" class="contacts__form form-contacts">
+							<input autocomplete="off" type="text" name="form[]" placeholder="Имя" class="form-contacts__input">
+							<input autocomplete="off" type="email" name="form[]" placeholder="Email" class="form-contacts__input">
+							<input autocomplete="off" type="tel" name="form[]" placeholder="Telegram или телефон" class="form-contacts__input">
+							<input autocomplete="off" type="text" name="form[]" placeholder="Тема" class="form-contacts__input">
+							<textarea name="message" placeholder="Ваше сообщение" class="form-contacts__textarea"></textarea>
+							<button type="submit" class="form-contacts__button">Отправить</button>
+						</form>
 					</div>
 				</div>
 			</section>
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
+				<div class="footer__inner">
+					<div class="footer__copy">
+						Copyrights © 2022 - 2023
+					</div>
+					<a href="" class="footer__logo"><img src="img/logo.svg" alt="Logo"></a>
+					<a href="" data-goto-header data-goto=".promo" class="footer__link">
+						<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M18 4.75H30C34.926 4.75 38.1791 5.7398 40.2197 7.78033C42.2602 9.82086 43.25 13.074 43.25 18V30C43.25 34.926 42.2602 38.1791 40.2197 40.2197C38.1791 42.2602 34.926 43.25 30 43.25H18C13.074 43.25 9.82086 42.2602 7.78033 40.2197C5.7398 38.1791 4.75 34.926 4.75 30V18C4.75 13.074 5.7398 9.82086 7.78033 7.78033C9.82086 5.7398 13.074 4.75 18 4.75Z" stroke="#085УАС" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+							<path d="M21.48 16.9401L28.52 24.0001L21.48 31.0601" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+						</svg>
+					</a>
+				</div>
 			</div>
 		</footer>
 	</div>
-	<script src="js/app.min.js?_v=20230317090631"></script>
+	<script src="js/app.min.js?_v=20230317113632"></script>
 </body>
 
 </html>
