@@ -317,7 +317,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -489,7 +488,6 @@ body {
   place-items: center;
   padding: 3.125rem 0;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   min-height: 100vh;
 }
@@ -765,6 +763,20 @@ body {
 @media (min-width: 47.99875em) {
   .item-services__body:not(:last-child) {
     margin-bottom: 1rem;
+  }
+}
+
+@media (min-width: 61.99875em) {
+  .promo {
+    background-attachment: fixed;
+  }
+
+  .services {
+    background-attachment: fixed;
+  }
+
+  .contacts {
+    background-attachment: fixed;
   }
 }
 
