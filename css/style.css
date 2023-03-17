@@ -314,7 +314,7 @@ body {
 }
 
 .no-webp .promo{
-  background-image: url("img/consulting.jpg"); }
+  background-image: url("../img/consulting.jpg"); }
 
 .promo {
   background-repeat: no-repeat;
@@ -486,7 +486,7 @@ body {
 }
 
 .no-webp .services{
-  background-image: url("img/service-back.jpeg"); }
+  background-image: url("../img/service-back.jpeg"); }
 
 .services {
   display: -ms-grid;
@@ -693,7 +693,7 @@ body {
 }
 
 .no-webp .contacts{
-  background-image: url(img/contacts.jpg); }
+  background-image: url("../img/contacts.jpg"); }
 
 .contacts {
   padding: 3.125rem 0;
@@ -1095,8 +1095,8 @@ body {
   }
 }
 
-.webp .promo{ background-image: url(img/consulting.webp); }
+.webp .promo{ background-image: url(../img/consulting.webp); }
 
-.webp .services{ background-image: url(img/service-back.webp); }
+.webp .services{ background-image: url(../img/service-back.webp); }
 
-.webp .contacts{ background-image: url(img/contacts.webp); }
+.webp .contacts{ background-image: url(../img/contacts.webp); }

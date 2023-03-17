@@ -164,7 +164,6 @@
             }));
         }
     }), 0);
-    window["FLS"] = true;
     isWebp();
     menuInit();
     pageNavigation();
