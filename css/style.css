@@ -779,10 +779,6 @@ body {
   .services {
     background-attachment: fixed;
   }
-
-  .contacts {
-    background-attachment: fixed;
-  }
 }
 
 @media (min-width: 76.875em) {
