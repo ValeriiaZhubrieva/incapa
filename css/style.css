@@ -776,10 +776,6 @@ body {
 }
 
 @media (min-width: 61.99875em) {
-  .promo {
-    background-attachment: fixed;
-  }
-
   .services {
     background-attachment: fixed;
   }
