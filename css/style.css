@@ -731,42 +731,34 @@ body {
   color: #fff;
 }
 
-.contacts__form {
-  display: -ms-grid;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(28.125rem, 1fr));
-  gap: 0.9375rem;
+.contacts__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1.875rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.form-contacts__input {
+.contacts__link {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.contacts__link svg {
   width: 100%;
-  height: 3.4375rem;
-  padding: 0.3125rem 1.25rem;
-  border-radius: 0.5rem;
-  color: #6a7c92;
+  height: 100%;
 }
 
-.form-contacts__textarea {
-  -ms-grid-column-span: 2;
-  grid-column: span 2;
-  padding: 0.625rem 1.25rem;
-  border-radius: 0.5rem;
-  min-height: 9.375rem;
-  resize: none;
-  color: #6a7c92;
-}
-
-.form-contacts__button {
-  border-radius: 0.5rem;
-  background-color: #085CFE;
-  padding: 0.75rem 2.1875rem;
-  font-weight: 500;
+.contacts__link svg path {
+  fill: #fff;
   -webkit-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  margin: 0 auto;
-  -ms-grid-column-span: 2;
-  grid-column: span 2;
 }
 
 @media (min-width: 47.99875em) {
@@ -944,10 +936,6 @@ body {
   .work__img {
     max-width: 100%;
   }
-
-  .contacts__form {
-    grid-template-columns: repeat(auto-fit, minmax(21.875rem, 1fr));
-  }
 }
 
 @media (max-width: 61.99875em) and (any-hover: none) {
@@ -960,10 +948,6 @@ body {
   .services__body {
     grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   }
-
-  .contacts__form {
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
-  }
 }
 
 @media (max-width: 33.125em) {
@@ -974,16 +958,6 @@ body {
   .footer__inner {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
-  }
-
-  .contacts__form {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
 }
 
@@ -1082,8 +1056,8 @@ body {
     background-color: #0847c5;
   }
 
-  .form-contacts__button:hover {
-    background-color: #0847c5;
+  .contacts__link:hover svg path {
+    fill: #085CFE;
   }
 }
 
